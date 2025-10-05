@@ -26,25 +26,39 @@ It showcases the professional services, repaired projects, and certificates of M
 microtech-website/
 │
 ├── public/
-│ ├── repaired/ # Images for repaired phones
+│ ├── repaired/
+│ │ ├── phone1.jpg
+│ │ ├── phone2.jpg
+│ │ └── ...
 │ ├── favicon.ico
 │ └── index.html
 │
 ├── src/
-│ ├── assets/ # Posters and other static images
-│ ├── components/ # Reusable UI components (Header, Footer, etc.)
-│ ├── pages/ # Website pages (Home, Services, Projects, Contact, Certificates)
+│ ├── assets/
+│ │ ├── poster.png
+│ │ └── logo.png
+│ │
+│ ├── components/
+│ │ ├── Header.jsx
+│ │ ├── Footer.jsx
+│ │ └── Navbar.jsx
+│ │
+│ ├── pages/
+│ │ ├── Home.jsx
+│ │ ├── Services.jsx
+│ │ ├── Projects.jsx
+│ │ ├── Contact.jsx
+│ │ └── Certificate.jsx
+│ │
 │ ├── App.jsx
 │ ├── main.jsx
-│ └── index.css # Tailwind + custom styles
+│ └── index.css
 │
 ├── package.json
 ├── tailwind.config.js
 ├── postcss.config.js
 ├── vite.config.js
 └── README.md
-
-
 ---
 
 ## ⚙️ Installation & Setup
